@@ -5,31 +5,35 @@
         "nodes" : [
 
         ],
-        "frame" : "{{53, 67}, {186, 80}}",
+        "frame" : "{{46, 198}, {193, 86}}",
         "class" : "Button",
         "attributes" : {
-          "uuid" : "1BE76E73-2E72-4C63-9793-740836F10F8B",
           "frame" : "{{102, 155}, {80, 32}}",
-          "title" : "Button",
+          "title" : "Check Out",
           "class" : "Button",
-          "name" : "button1",
-          "font_size" : 15
+          "font_bold" : true,
+          "uuid" : "1BE76E73-2E72-4C63-9793-740836F10F8B",
+          "background_color" : "RGBA(1.000000,0.633333,0.233333,1.000000)",
+          "font_size" : 20,
+          "name" : "checkout_button"
         },
-        "selected" : true
+        "selected" : false
       },
       {
         "nodes" : [
 
         ],
-        "frame" : "{{53, 198}, {186, 80}}",
+        "frame" : "{{46, 60}, {193, 86}}",
         "class" : "Button",
         "attributes" : {
-          "font_size" : 15,
           "frame" : "{{102, 155}, {80, 32}}",
-          "title" : "Button",
+          "title" : "Check In",
+          "uuid" : "1BE76E73-2E72-4C63-9793-740836F10F8B",
+          "font_bold" : true,
           "class" : "Button",
-          "name" : "button1",
-          "uuid" : "1BE76E73-2E72-4C63-9793-740836F10F8B"
+          "background_color" : "RGBA(0.400000,1.000000,0.452174,1.000000)",
+          "name" : "checkin_button",
+          "font_size" : 20
         },
         "selected" : false
       }
@@ -37,6 +41,7 @@
     "frame" : "{{0, 0}, {284, 342}}",
     "class" : "View",
     "attributes" : {
+      "name" : "CheckInCheckOutLogger",
       "enabled" : true,
       "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
