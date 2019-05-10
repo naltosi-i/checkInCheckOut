@@ -1,16 +1,55 @@
 [
-    {
-        "class": "View",
-        "attributes": {
-            "background_color": "RGBA(1.000000,1.000000,1.000000,1.000000)",
-            "tint_color": "RGBA(0.000000,0.478000,1.000000,1.000000)",
-            "enabled": true,
-            "border_color": "RGBA(0.000000,0.000000,0.000000,1.000000)",
-            "flex": ""
-        },
-        "frame": "{{0, 0}, {240, 240}}",
-        "nodes": [
+  {
+    "nodes" : [
+      {
+        "nodes" : [
 
-        ]
-    }
+        ],
+        "frame" : "{{46, 198}, {193, 86}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "checkout",
+          "frame" : "{{102, 155}, {80, 32}}",
+          "title" : "Check Out",
+          "class" : "Button",
+          "font_bold" : true,
+          "uuid" : "1BE76E73-2E72-4C63-9793-740836F10F8B",
+          "background_color" : "RGBA(1.000000,0.633333,0.233333,1.000000)",
+          "font_size" : 20,
+          "name" : "checkout_button"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{46, 60}, {193, 86}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "checkin",
+          "frame" : "{{102, 155}, {80, 32}}",
+          "title" : "Check In",
+          "uuid" : "1BE76E73-2E72-4C63-9793-740836F10F8B",
+          "font_bold" : true,
+          "class" : "Button",
+          "background_color" : "RGBA(0.400000,1.000000,0.452174,1.000000)",
+          "name" : "checkin_button",
+          "font_size" : 20
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {284, 342}}",
+    "class" : "View",
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "CheckInCheckOutLogger",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
 ]
