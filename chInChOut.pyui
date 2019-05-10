@@ -18,7 +18,7 @@
           "font_size" : 20,
           "name" : "checkout_button"
         },
-        "selected" : true
+        "selected" : false
       },
       {
         "nodes" : [
@@ -37,7 +37,7 @@
           "name" : "checkin_button",
           "font_size" : 20
         },
-        "selected" : false
+        "selected" : true
       }
     ],
     "frame" : "{{0, 0}, {284, 342}}",
