@@ -4,7 +4,7 @@ from datetime import datetime
 chkin = False
 
 
-def checkin():
+def checkin(sender):
 	global chkin
 	if chkin == False:
 		chkin = True
@@ -24,7 +24,7 @@ def checkin():
 	else:
 		return
 
-def checkout():
+def checkout(sender):
 	global chkin
 	
 	if chkin == True:
