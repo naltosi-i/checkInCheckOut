@@ -1,6 +1,11 @@
 import ui
+from datetime import datetime
 
 chkin = False
+
+today = datetime.today()
+
+
 
 def checkin():
 	if chkin == False:
