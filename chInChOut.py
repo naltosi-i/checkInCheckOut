@@ -4,7 +4,7 @@ chkin = False
 
 def checkin():
 	if chkin == False:
-		
+		chkin = True
 		
 	else:
 		return 
@@ -12,7 +12,7 @@ def checkin():
 
 def checkout():
 	if chkin == True:
-		
+		chkin = False
 		
 	else:
 		return 
