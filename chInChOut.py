@@ -20,7 +20,7 @@ def checkin(sender):
 			f.write(str_now + ' - check_in\n')
 		
 		label = sender.superview['label1']
-		text = 'last status\n' + 'cecked in\n' + 'at' + str_now
+		text = 'last status\n' + 'cecked in\n' + 'at ' + str_now
 		label.text = text
 		
 		return 
@@ -45,7 +45,7 @@ def checkout(sender):
 			f.write(str_now + ' - check_out\n')
 		
 		label = sender.superview['label1']
-		text = 'last status\n' + 'cecked out\n' + 'at' + str_now
+		text = 'last status\n' + 'cecked out\n' + 'at ' + str_now
 		label.text = text
 		
 		return 
