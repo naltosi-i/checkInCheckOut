@@ -43,7 +43,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{17, 320}, {259, 75}}",
+        "frame" : "{{46, 305}, {238, 75}}",
         "class" : "Label",
         "attributes" : {
           "font_size" : 18,
@@ -61,11 +61,11 @@
     "frame" : "{{0, 0}, {290, 452}}",
     "class" : "View",
     "attributes" : {
-      "name" : "CheckInCheckOutLogger",
-      "enabled" : true,
-      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
       "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
       "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "CheckInCheckOutLogger",
       "flex" : ""
     },
     "selected" : false
