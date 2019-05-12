@@ -43,29 +43,29 @@
         "nodes" : [
 
         ],
-        "frame" : "{{17, 320}, {259, 75}}",
+        "frame" : "{{26, 317}, {238, 75}}",
         "class" : "Label",
         "attributes" : {
-          "font_size" : 18,
+          "name" : "label1",
           "frame" : "{{70, 210}, {150, 32}}",
           "uuid" : "709BB8B6-8FEE-48F4-95C7-97FE1C20B329",
           "class" : "Label",
           "alignment" : "left",
           "text" : "Checked out",
-          "name" : "label1",
+          "font_size" : 18,
           "font_name" : "<System>"
         },
-        "selected" : true
+        "selected" : false
       }
     ],
     "frame" : "{{0, 0}, {290, 452}}",
     "class" : "View",
     "attributes" : {
-      "name" : "CheckInCheckOutLogger",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
       "enabled" : true,
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "CheckInCheckOutLogger",
       "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
       "flex" : ""
     },
     "selected" : false
