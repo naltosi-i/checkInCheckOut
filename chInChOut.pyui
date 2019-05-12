@@ -37,17 +37,35 @@
           "name" : "checkin_button",
           "font_size" : 20
         },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{46, 320}, {193, 62}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label1",
+          "frame" : "{{70, 210}, {150, 32}}",
+          "uuid" : "709BB8B6-8FEE-48F4-95C7-97FE1C20B329",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Checked out",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
         "selected" : true
       }
     ],
-    "frame" : "{{0, 0}, {284, 342}}",
+    "frame" : "{{0, 0}, {290, 452}}",
     "class" : "View",
     "attributes" : {
-      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
       "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
       "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
       "name" : "CheckInCheckOutLogger",
-      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
       "flex" : ""
     },
     "selected" : false
