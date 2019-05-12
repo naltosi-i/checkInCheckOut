@@ -19,7 +19,7 @@ def checkin(sender):
 		with open(path, mode='a', encoding='utf-8') as f:
 			f.write(str_now + ' - check_in\n')
 		
-		label = sender.superview('label1')
+		label = sender.superview['label1']
 		text = 'last status\n' + 'cecked in'
 		label.text = text
 		
@@ -44,7 +44,7 @@ def checkout(sender):
 		with open(path, mode='a', encoding='utf-8') as f:
 			f.write(str_now + ' - check_out\n')
 		
-		label = sender.superview('label1')
+		label = sender.superview['label1']
 		text = 'last status\n' + 'cecked out'
 		label.text = text
 		
