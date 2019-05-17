@@ -14,7 +14,7 @@ def checkin(sender):
 		now = datetime.now()
 		str_now = f'{now:%Y-%m-%d %H:%M:%S}'
 		
-		path = 'log/' + str_today + '.log'
+		path = 'log/' + str_today + '.csv'
 		
 		with open(path, mode='a', encoding='utf-8') as f:
 			f.write(str_now + ',check_in\n')
@@ -39,7 +39,7 @@ def checkout(sender):
 		now = datetime.now()
 		str_now = f'{now:%Y-%m-%d %H:%M:%S}'
 		
-		path = 'log/' + str_today + '.log'
+		path = 'log/' + str_today + '.csv'
 		
 		with open(path, mode='a', encoding='utf-8') as f:
 			f.write(str_now + ',check_out\n')
