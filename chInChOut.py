@@ -17,7 +17,7 @@ def checkin(sender):
 		path = 'log/' + str_today + '.log'
 		
 		with open(path, mode='a', encoding='utf-8') as f:
-			f.write(str_now + ' - check_in\n')
+			f.write(str_now + ',check_in\n')
 		
 		label = sender.superview['label1']
 		text = 'last status\n' + 'cecked in\n' + 'at ' + str_now
@@ -42,7 +42,7 @@ def checkout(sender):
 		path = 'log/' + str_today + '.log'
 		
 		with open(path, mode='a', encoding='utf-8') as f:
-			f.write(str_now + ' - check_out\n')
+			f.write(str_now + ',check_out\n')
 		
 		label = sender.superview['label1']
 		text = 'last status\n' + 'cecked out\n' + 'at ' + str_now
