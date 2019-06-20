@@ -21,10 +21,10 @@ if os.path.exists(master_path):
 	text = 'last status\n' + status + 'at ' + lastTime
 	label.text = text
 
-		if status == 'check_in':
-			chkin = False
-		elif status == 'check_out':
-			chkin = True
+	if status == 'check_in':
+		chkin = True
+	elif status == 'check_out':
+		chkin = False
 else:
 	chkin = False				
 
