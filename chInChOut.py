@@ -79,7 +79,7 @@ def checkout(sender):
 		return
 
 #def main():
-#	statusCheck()
+#	label1(ui.Label('label1'))
 	
 	
 #if __name__ == '__main__':
