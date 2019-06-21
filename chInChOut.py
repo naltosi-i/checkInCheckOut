@@ -17,16 +17,17 @@ if os.path.exists(master_path):
 		lastTime = columns[0]
 		status = columns[1]
 	
-	label = ui.Label('label1')
-	text = 'last status\n' + status + 'at ' + lastTime
-	label.text = text
-
 	if status == 'check_in':
 		chkin = True
 	elif status == 'check_out':
 		chkin = False
 else:
 	chkin = False				
+
+def label1(self):
+	label = self.superview['label1']
+	text = 'last status\n' + status + 'at ' + lastTime
+	label.text = text
 
 def checkin(sender):
 	global chkin
