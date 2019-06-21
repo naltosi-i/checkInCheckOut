@@ -78,12 +78,12 @@ def checkout(sender):
 	else:
 		return
 
-def main():
-	label1(ui.Label('label1'))
+#def main():
+#	label1(ui.Label('label1'))
 	
 	
-if __name__ == '__main__':
-	main()
+#if __name__ == '__main__':
+#	main()
 	
 v = ui.load_view()
 v.present('sheet')
